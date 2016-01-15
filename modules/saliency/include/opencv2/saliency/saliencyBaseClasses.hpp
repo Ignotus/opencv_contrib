@@ -70,7 +70,7 @@ class CV_EXPORTS_W Saliency : public virtual Algorithm
   /**
    * \brief Create Saliency by saliency type.
    */
-  static Ptr<Saliency> create( const String& saliencyType );
+  CV_WRAP static Ptr<Saliency> create( const String& saliencyType );
 
   /**
    * \brief Compute the saliency
