@@ -59,7 +59,7 @@ namespace saliency
 
 /************************************ Saliency Base Class ************************************/
 
-class CV_EXPORTS Saliency : public virtual Algorithm
+CV_EXPORTS class Saliency : public virtual Algorithm
 {
  public:
   /**
@@ -93,7 +93,7 @@ class CV_EXPORTS Saliency : public virtual Algorithm
 };
 
 /************************************ Static Saliency Base Class ************************************/
-class CV_EXPORTS StaticSaliency : public virtual Saliency
+CV_EXPORTS class StaticSaliency : public virtual Saliency
 {
  public:
 
@@ -128,7 +128,7 @@ class CV_EXPORTS MotionSaliency : public virtual Saliency
 };
 
 /************************************ Objectness Base Class ************************************/
-class CV_EXPORTS Objectness : public virtual Saliency
+CV_EXPORTS class Objectness : public virtual Saliency
 {
 
  protected:
