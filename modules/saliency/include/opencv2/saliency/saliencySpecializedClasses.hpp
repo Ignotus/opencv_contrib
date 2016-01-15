@@ -66,7 +66,7 @@ pre-attentive visual search. The algorithm analyze the log spectrum of each imag
 spectral residual. Then transform the spectral residual to spatial domain to obtain the saliency
 map, which suggests the positions of proto-objects.
  */
-class CV_EXPORTS_W StaticSaliencySpectralResidual : public StaticSaliency
+class CV_EXPORTS StaticSaliencySpectralResidual : public StaticSaliency
 {
 public:
 
@@ -111,7 +111,7 @@ protected:
  */
 /** @brief the Fast Self-tuning Background Subtraction Algorithm from @cite BinWangApr2014
  */
-class CV_EXPORTS_W MotionSaliencyBinWangApr2014 : public MotionSaliency
+class CV_EXPORTS MotionSaliencyBinWangApr2014 : public MotionSaliency
 {
 public:
   CV_WRAP MotionSaliencyBinWangApr2014();
